@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/ishmukhamet/cpp-bigint.svg)](https://travis-ci.org/ishmukhamet/cpp-bigint)
+
 #Описание
 Класс, реализующий длинную арифметику. По умолчанию работает с числами длиной до 2000 десятичных знаков.
 
