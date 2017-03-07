@@ -367,7 +367,7 @@ BigInt operator/(const BigInt &lhs, const BigInt &rhs) {
         curValue.shiftRight();
         curValue.digits[0] = lhs.digits[i];
 
-        // подбираем такой part, что rhs*divider <= curValue
+        // подбираем такой part, что rhs*part <= curValue
         int part = 0;
         int lBorder = 0;
         int rBorder = BASE;
